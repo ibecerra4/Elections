@@ -7,21 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class CurrentElection extends AppCompatActivity {
-    private Button button2;
+public class ElectionDates extends AppCompatActivity {
+    private Button button3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_current_election);
+        setContentView(R.layout.activity_election_dates);
 
-        button2 =(Button) findViewById(R.id.button2);
-        button2.setOnClickListener(new View.OnClickListener() {
+        button3 =(Button) findViewById(R.id.button2);
+        button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
                 openMainActivity();
             }
         });
-
     }
 
     public void openMainActivity(){
