@@ -25,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openCurrentElection(){
-        Intent intent  = new Intent(this, CurrentElection.class);
+        Intent intent;
+        intent = new Intent(this, CurrentElection.class);
         startActivity(intent);
     }
 }
